@@ -50,12 +50,12 @@ function drawGrid(){
 
 function fillBoxes()
 {   //squares
-    const taken_squares = [[36,27,53,81,47,43,14,34,21,78,96], [84,66,35], [73,12,85], [62,72,10,40,76,67,87,60,37,91,52,44,75,57],
-        [61,49,31,9,30,28], [70,64,83,2,59,4,18,45,22,99], [86,63,38,3,95,32,80,5,11,17,15,50,69,20], [39,23,42,33,24,100,19],
-        [8,89,88],[29,94,55], [68,41,16],[98,71,7,77,13,25,82], [65,92,56,93,54,97,6], [1,58], [79,90,51,46,74,26,48]];  
+    const taken_squares = [[36,27,53,81,47,43,14,34,21,78,96], [84,66,35], [73,12,85], [62,72,10,40,76,67,60,44,75,57],
+        [61,49,9,30,28], [70,64,83,2,59,4,18,45,22,99], [86,63,38,3,95,32,80,5,11,17,15,50,69,20], [39,23,42,33,24,100,19],
+        [8,89,88],[29,94,55], [68,41,16],[98,71,7,77,13,25,82], [65,92,56,93,54,97,6], [1,58], [79,90,51,46,74,26,48], [37,91,52,31,87]];  
     const player_names = ["Lisa Ginsberg", "Ed Gargiulo", "Max Trilling", "Joe Trilling", "Wendi Trilling",
     "Jonathan Groff","Elke McGinley", "Karen Umland", "Brian Ginsberg", "Brian Kiley", "John Kosner",
-    "Sandy Kiley", "Karen Sherwood","Minni Ajei","Ben Sherwood"];  
+    "Sandy Kiley", "Karen Sherwood","Minni Ajei","Ben Sherwood", "Drew Beerman"];  
     const winning_squares=[];  //add correct winning squares here
     if (screen_width=="monitor") {
         context.font="11px Arial bold";  // 11px font for full-size monitor screen
