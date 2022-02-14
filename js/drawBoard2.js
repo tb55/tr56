@@ -56,7 +56,7 @@ function fillBoxes()
     const player_names = ["Lisa Ginsberg", "Ed Gargiulo", "Max Trilling", "Joe Trilling", "Wendi Trilling",
     "Jonathan Groff","Elke McGinley", "Karen Umland", "Brian Ginsberg", "Brian Kiley", "John Kosner",
     "Sandy Kiley", "Karen Sherwood","Minni Ajei","Ben Sherwood", "Drew Beerman"];  
-    const winning_squares=[];  //add correct winning squares here
+    const winning_squares=[74,31,61];  //add correct winning squares here
     if (screen_width=="monitor") {
         context.font="11px Arial bold";  // 11px font for full-size monitor screen
         console.log("11px font")
